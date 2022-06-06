@@ -17,8 +17,9 @@ public class Warrior extends Hero {
             }
             else  {
                 Random r = new Random();
-
+                int gh;
                 boss.setHealth(boss.getHealth() - (this.getDamage() * r.nextInt(2,4)));
+
             }
         }
     }
